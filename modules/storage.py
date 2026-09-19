@@ -46,7 +46,7 @@ def load_data(file_path):
     print(e)
     return pd.DataFrame(columns=['student_id', 'student_name', 'quiz_id', 'quiz_name', 'topic', 'date', 'score', 'max_score'])
 
-#overwriting data or modify
+#save
 def save_data(df,file_path): 
   try:
     if initialize_file(file_path):
@@ -76,20 +76,3 @@ def add_record(file_path,record):
   except Exception as e:
     print(e)
     return False
-
-record = pd.DataFrame({
-  'student_id':['IU2441230387','IU2441230414'],
-  'student_name':['Rahul Parmar','Jeet Makani'],
-  'quiz_id':['Q1','Q1'],
-  'quiz_name':['Python','Python'],
-  'topic':['Regular Expression','Regular Expression'],
-  'date':['2026-09-18','2026-09-18'],
-  'score':[17,20],
-  'max_score':[20,20]
-})
-
-df = load_data(path)
-print(df)
-save_data(df,path)
-add_record(path,record)
-print(load_data(path))
