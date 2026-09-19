@@ -1,5 +1,6 @@
 student_id,student_name,quiz_id,quiz_name,topic,date,score,max_score
 IU2441230387,Rahul Parmar,Q1,Python,Regular Expression,2026-09-18,17,20
 IU2441230414,Jeet Makani,Q1,Python,Regular Expression,2026-09-18,20,20
-IU2441230387,Rahul Parmar,Q1,Python,Regular Expression,2026-09-18,17,20
-IU2441230414,Jeet Makani,Q1,Python,Regular Expression,2026-09-18,20,20
+IU2441230000,John Doe,Q1,Python,Regular Expression,2026-09-18,4,20
+IU2441230408,Pruthesh Shah,Q1,Python,Regular Expression,2026-09-18,18,20
+IU244123026,Kartik Gurjar,Q1,Python,Regular Expression,2026-09-18,19,20
