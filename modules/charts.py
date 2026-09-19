@@ -1,4 +1,3 @@
-import pandas as pd
 import analysis
 import matplotlib.pyplot as plt
 
@@ -25,8 +24,8 @@ def plot_quiz_averages(df):
 
 def plot_topic_performance(df):
   grouped_df = analysis.get_topic_performance(df)
-  
-  plt.barh(grouped_df.index,grouped_df.valyes)
+
+  plt.barh(grouped_df.index,grouped_df.values)
   plt.title("Performance by Topic")
   plt.xlabel("Average Percentage")
   plt.ylabel("Topic")
